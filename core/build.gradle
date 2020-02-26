@@ -5,7 +5,7 @@ dependencies {
     compile(
         "org.springframework.security:spring-security-web:$springSecurityVersion",
         "org.springframework.security:spring-security-config:$springSecurityVersion",
-        'org.springframework.security.extensions:spring-security-saml2-core:1.0.4.RELEASE',
+        'org.springframework.security.extensions:spring-security-saml2-core:1.0.10.RELEASE',
     )
 
     provided(
